@@ -180,4 +180,3 @@ extern void f11() {
   q = _Assume_bounds_cast<ptr<int>>(r, 1) + 3; // expected-error{{invalid bounds cast}}
   c = _Dynamic_bounds_cast<ptr<int>>(p, 4); // expected-error{{invalid bounds cast}}  
 }
-
